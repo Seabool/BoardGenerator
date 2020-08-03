@@ -1,6 +1,8 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     const board = document.getElementById('board');
     const submitButton = document.getElementById('submit');
+	
+	
 
     submitButton.addEventListener('click', (event) => {
         const board = document.getElementById('board');
@@ -14,6 +16,13 @@ window.addEventListener('DOMContentLoaded', (event) => {
             alertBox.style.display = 'none';
         } else {
             alertBox.style.display = 'inline';
+        }
+    });
+	
+	document.addEventListener("keydown", function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            submitButton.click();
         }
     });
 });
