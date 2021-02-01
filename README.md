@@ -4,7 +4,7 @@ Board Generator
 
 ## About
 
-You can generate a chessboard and max size can be 20! You can check it [here](https://seabool.github.io/BoardGenerator/).
+You can generate a chessboard and max size can be 20! You can check it [here](https://seabool.github.io/board-generator/).
 
 ## Built With
 
